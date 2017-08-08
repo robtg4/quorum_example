@@ -1,0 +1,61 @@
+{
+  "contract_name": "SimpleStorgae",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "getVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "initVal",
+          "type": "uint256"
+        }
+      ],
+      "name": "SimpleStorage",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6101138061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114605a57806360fe47b114607c5780636d4ce63c146091578063f4b103d414607c575b600080fd5b3415606457600080fd5b606a60c8565b60405190815260200160405180910390f35b3415608657600080fd5b608f60043560ce565b005b3415609b57600080fd5b606a60d7565b60405190815260200160405180910390f35b3415608657600080fd5b608f60043560ce565b005b60005481565b60008190555b50565b6000545b90565b60008190555b505600a165627a7a72305820c765b0a4a1bc8ab4d99587ecb493213a03d777dc224af9ebbc497733879f41f50029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1502213673880
+}
